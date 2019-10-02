@@ -33,9 +33,7 @@ def encryptor():
             else:
                 i += 1
 
-    print("\n")
-    print(result)
-    print("\n")
+    print("\n" + result + "\n")
 
     choice = input("Do you want to decrypt the message?: Y/N")
 
@@ -48,8 +46,8 @@ def encryptor():
             else:
                 j += 1
 
-        return(decrypted)
+        return decrypted
     else:
-        return(result)
+        return result
 
 print(encryptor())
